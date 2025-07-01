@@ -1,0 +1,11 @@
+def greet(name, age):
+    print(f"Hello {name}, you are {age} years old.")
+
+info = {"name": "Gokul", "age": 25}
+greet(**info) 
+
+ # Unpacks to: greet(name="Gokul", age=25)
+# a dictionary of arguments to a function.
+# This is useful for passing a dictionary of arguments to a function.
+# It allows the function to accept a variable number of keyword arguments.
+# This is useful when you want to pass a dictionary of arguments to a function.
